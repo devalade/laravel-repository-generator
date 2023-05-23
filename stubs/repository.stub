@@ -1,0 +1,23 @@
+<?php
+
+namespace $NAMESPACE$
+
+
+class $CLASS_NAME$ extends Interfaces\$CLASS_NAME$Interface
+{
+    public function all() {
+        // TODO
+    }
+
+    public function store() {
+        // TODO
+    }
+
+    public function edit() {
+        // TODO
+    }
+
+    public function delete() {
+        // TODO
+    }
+}

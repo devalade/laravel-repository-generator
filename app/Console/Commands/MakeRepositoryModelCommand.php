@@ -13,7 +13,7 @@ class MakeRepositoryModelCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'repository:model {CLASS_NAME}';
+    protected $signature = 'generate:model {CLASS_NAME}';
 
     /**
      * The console command description.
@@ -27,7 +27,6 @@ class MakeRepositoryModelCommand extends Command
      */
     public function handle()
     {
-
         $className = $this->argument('CLASS_NAME');
         $stubContent = $this->getStubContent();
         $fileName = $className . '.php';

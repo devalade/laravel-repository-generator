@@ -2,7 +2,11 @@
 
 namespace $NAMESPACE$;
 
-interface $CLASS_NAME$Interface
+interface $CLASS_NAME$
 {
 
+    public function all();
+    public function store();
+    public function edit();
+    public function delete();
 }
