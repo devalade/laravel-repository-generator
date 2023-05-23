@@ -1,0 +1,14 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+
+
+class $CLASS_NAME$ extends Controller
+{
+    HasFactory;
+}
+    //
+}
